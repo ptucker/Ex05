@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  ex02.cpp
 //  Ex05
 //
 //  Created by Ally McConnell on 6/13/16.
@@ -7,9 +7,7 @@
 //
 
 #include <iostream>
+using namespace std;
+#include <string>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
-}
+
