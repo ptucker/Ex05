@@ -6,6 +6,8 @@
 //  Copyright © 2016 Ally McConnell. All rights reserved.
 //
 
+//PT -- 16/20
+
 #include <iostream>
 using namespace std;
 #include <string>
@@ -23,6 +25,7 @@ public:
     int clear();
     void swap(MyVector v2);
 private:
+//PT -- this needs to be a pointer, and dynamically allocated. What if I have more than 100 items to store?
     T elements[100];
     int vectorSize;
     
