@@ -9,6 +9,8 @@
 #include <iostream> 
 using namespace std;
 #include <string>
+//PT -- 12/20
+
 template <typename T>
 
 void shuffle(vector<T>&v);
@@ -35,6 +37,7 @@ int ex04()
         return 0;
     }
     
+    //PT -- Declare this function outside of main
     template <typename T>
     void shuffle(vector<T>&v){
         srand(time(0));
